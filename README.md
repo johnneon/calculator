@@ -24,3 +24,5 @@ JavaScript can't count fractions correctly. The calculator is taught to do this.
 17. `0.0004 + 0.0004 => 0.0008`
 18. `-0.1 * 0.2 => -0.02`
 19. `-0.15 + -0.15 => -0.3`
+
+![screen](https://user-images.githubusercontent.com/53760291/117531644-527a3d80-b005-11eb-9c27-952bf3790de4.png)
