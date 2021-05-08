@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="calculator-gtid">
+    <div class="span-five">
+      <p>Что бы переставить число в отрицательное сначало вводим число, потом нажимаем "+/-" (обратно так же)</p>
+      <p>Возведение - вводим число, нажимаем "n<sup>x</sup>" и вводим в какую степень возвести</p>
+      <p>Корень - вводим число и нажимаем "√" (изначально подразумевается что корень только квадратный! И да, для этой операции не нужно кликать равно)</p>
+      <p>Ссылка с пунктами оценки <a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/ready-projects/calculator.md#instruction-to-cross-check" target="_blank">Instruction to cross-check</a></p>
+      <p>Благодарю вас за проверку, и желаю удачи!)</p>
+    </div>
+    <div class="output">
+      <div data-previous-operand class="previos-operand"></div>
+      <div data-current-operand class="current-operand"></div>
+    </div>
+    <button data-all-clear class="span-two">AC</button>
+    <button data-negative>+/-</button>
+    <button data-delete>DEL</button>
+    <button data-operation class="row-span-two">n<sup>x</sup></button>
+    <button data-number>1</button>
+    <button data-number>2</button>
+    <button data-number>3</button>
+    <button data-operation>÷</button>
+    <button data-number>4</button>
+    <button data-number>5</button>
+    <button data-number>6</button>
+    <button data-operation>*</button>
+    <button data-operation-root class="row-span-two">√</button>
+    <button data-number>7</button>
+    <button data-number>8</button>
+    <button data-number>9</button>
+    <button data-operation>+</button>
+    <button data-number>.</button>
+    <button data-number class="span-two">0</button>
+    <button data-operation>-</button>
+    <button data-equals>=</button>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
